@@ -10,3 +10,8 @@ Route::get('/database', function () {
     return view('database');
 })->name('database');
 
+Route::get('/login', function () {
+    return view('login');
+
+})->name('login');
+
