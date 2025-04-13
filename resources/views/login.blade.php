@@ -17,7 +17,7 @@
     @endif
     <script src="https://kit.fontawesome.com/921597b21c.js" crossorigin="anonymous"></script>
 </head>
-<body class="flex items-center justify-center h-screen bg-[#f2f2f2]">
+<body class="flex items-center justify-center h-screen bg-[#f2f2f2] ">
 
 
     <div class="border-b-gray-50 rounded-md mx-auto w-1/2 p-6 bg-white shadow">
@@ -34,17 +34,15 @@
             <label class="mb-2" for="username">Username</label>
             <input required class="h-[50px] mb-4 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black" type="text" name="username" id="username" placeholder="Enter username">
 
-            <label class="mb-2" type="password">Password</label>
+            <label class="mb-2" for="password" type="password">Password</label>
             @if($errors->has('password'))
                 <div class="text-red-500 text-sm font-exo">{{ $errors->first('password') }}</div>
             @endif
-            <input required class="h-[50px] mb-4 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black" type="password" name="password" id="password" placeholder="Enter password">
-
+            <input id="hs-toggle-password" required class="h-[50px] mb-4 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black" type="password" name="password"  placeholder="Enter password">
             <Button class="bg-black text-white py-2 rounded-md hover:bg-gray-700 transition duration-300 h-[50px] cursor-pointer" type="submit">Sign in</Button>
         </form>
 
     </div>
-
 </body>
 </html>
 

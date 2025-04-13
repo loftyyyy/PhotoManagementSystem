@@ -11,6 +11,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/database', function () {
         return view('database');
     })->name('database');
+    Route::get('/photo', function () {
+        return view('photobooth');
+    })->name('photo');
 });
 
 Route::get('/login', [AuthController::class, 'index'])->name('login');
