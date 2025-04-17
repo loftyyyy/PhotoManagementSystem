@@ -5,6 +5,7 @@
 
         <div class="">
             <div class="grid grid-cols-2 grid-rows-2 gap-4 place-items-center">
+{{--                Quadro Stack--}}
                 <div class="flex flex-col items-center  bg-gray-200 w-fit border-4 border-pink-300 rounded-3xl">
                     <div class="py-3 px-3">
                         <div class="mb-3">
@@ -23,10 +24,12 @@
                     </div>
                     <div class="bg-gray-100 w-full text-center py-3 rounded-b-3xl">
                         <p class="text-xs text-gray-500 text-center">Sidlac 04/14/2025</p>
-                        <h3 class="text-xl font-bold text-center">Layout A</h3>
+                        <h3 class="text-xl font-bold text-center">Quadro Stack</h3>
                         <p class="text-center text-gray-600">4 Pose</p>
                     </div>
                 </div>
+
+{{--                Trio Stack--}}
                 <div class="flex flex-col items-center  bg-gray-200 w-fit h-fit border-4 border-pink-300 rounded-3xl">
                     <div class="py-3 px-3">
                         <div class="mb-3">
@@ -42,10 +45,11 @@
                     </div>
                     <div class="bg-gray-100 w-full text-center py-3 rounded-b-3xl">
                         <p class="text-xs text-gray-500 text-center">Sidlac 04/14/2025</p>
-                        <h3 class="text-xl font-bold text-center">Layout B</h3>
+                        <h3 class="text-xl font-bold text-center">Trio Stack</h3>
                         <p class="text-center text-gray-600">3 Pose</p>
                     </div>
                 </div>
+{{--                Duo Pop--}}
                 <div class="flex flex-col items-center  bg-gray-200 w-fit h-fit border-4 border-pink-300 rounded-3xl">
                     <div class="py-3 px-3">
                         <div class="mb-3">
@@ -54,23 +58,25 @@
                         <div class="mb-3">
                             <img class="rounded-lg" src="https://placehold.co/180x160" alt="">
                         </div>
-                        <div class="">
-                            <img class="rounded-lg" src="https://placehold.co/180x160" alt="">
-                        </div>
 
                     </div>
                     <div class="bg-gray-100 w-full text-center py-3 rounded-b-3xl">
                         <p class="text-xs text-gray-500 text-center">Sidlac 04/14/2025</p>
-                        <h3 class="text-xl font-bold text-center">Layout B</h3>
-                        <p class="text-center text-gray-600">3 Pose</p>
+                        <h3 class="text-xl font-bold text-center">Duo Pop</h3>
+                        <p class="text-center text-gray-600">2 Pose</p>
                     </div>
                 </div>
+
+{{--                Lumi Grid--}}
                 <div class="flex flex-col items-center  bg-gray-200 w-fit h-fit border-4 border-pink-300 rounded-3xl">
-                    <div class="py-3 px-3">
-                        <div class="mb-3">
+                    <div class="grid grid-cols-2 grid-rows-2 gap-4 py-3 px-3">
+                        <div class="">
                             <img class="rounded-lg" src="https://placehold.co/180x160" alt="">
                         </div>
-                        <div class="mb-3">
+                        <div class="">
+                            <img class="rounded-lg" src="https://placehold.co/180x160" alt="">
+                        </div>
+                        <div class="">
                             <img class="rounded-lg" src="https://placehold.co/180x160" alt="">
                         </div>
                         <div class="">
@@ -80,8 +86,8 @@
                     </div>
                     <div class="bg-gray-100 w-full text-center py-3 rounded-b-3xl">
                         <p class="text-xs text-gray-500 text-center">Sidlac 04/14/2025</p>
-                        <h3 class="text-xl font-bold text-center">Layout B</h3>
-                        <p class="text-center text-gray-600">3 Pose</p>
+                        <h3 class="text-xl font-bold text-center">Lumi Grid</h3>
+                        <p class="text-center text-gray-600">6 Pose</p>
                     </div>
                 </div>
             </div>
