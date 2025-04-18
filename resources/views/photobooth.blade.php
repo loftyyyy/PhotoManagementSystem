@@ -3,8 +3,8 @@
         <h1 class="text-center text-5xl font-bold dark:text-gray-300">Choose Your Layout</h1>
         <p class="text-center mt-3 dark:text-gray-500">Choose the perfect layout to elevate your photo session — explore a variety of stunning styles and curated poses to match your unique vibe.</p>
 
-        <div class="">
-            <div class="grid grid-cols-2 grid-rows-4 gap-4 place-items-center">
+        <div class="mt-10">
+            <div class="grid grid-cols-3 grid-rows-2 gap-4 place-items-center">
 {{--                Quadro Stack--}}
                 <div class="flex flex-col items-center  bg-gray-200 w-fit border-4 border-pink-300 rounded-3xl">
                     <div class="py-3 px-3">
@@ -131,7 +131,7 @@
                             <img class="rounded-lg" src="https://placehold.co/280x260" alt="">
                         </div>
                         <div class="col-start-3 row-start-1 flex items-center justify-center">
-                            <div class="bg-gray-200 lg:mr-15 w-full text-center py-3 rounded-b-3xl">
+                            <div class="bg-gray-200 w-full text-center py-3 rounded-b-3xl">
                                 <p class="text-xs text-gray-500">Sidlac 04/14/2025</p>
                                 <h3 class="text-xl font-bold">Story Snap</h3>
                                 <p class="text-gray-600">4 Pose</p>
@@ -151,6 +151,14 @@
                 </div>
             </div>
         </div>
+        <div class="text-center mt-10">
+            <button class="relative cursor-pointer inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
+                    Continue
+                </span>
+            </button>
+        </div>
+
 
     </div>
 </x-header>
